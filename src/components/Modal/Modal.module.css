@@ -1,0 +1,51 @@
+.background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modalCointainer {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+  }
+
+  .modalContent {
+    width: 960px;
+    height: 640px;
+    background-color: white;
+    border-radius: 16px;
+    z-index: 150;
+    position: relative;
+  }
+
+  .modalContent__header {
+    color: black;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+  }
+
+  .modalContent__title {
+    font-size: 80px;
+  }
+
+  .modalContent__closeButton {
+    all: unset;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .modalContent {
+      width: 90%;
+      padding: 16px;
+    }
+  }

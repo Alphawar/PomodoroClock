@@ -1,0 +1,23 @@
+.controlPanel {
+    height: 80px;
+    background: #08002b;
+    width: 640px;
+    margin: 0 auto;
+    border-radius: 80px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .controlPanel__button {
+    all: unset; 
+    height: 64px;
+    text-align: center;
+    border-radius: 80px;
+    flex: 1;
+    font-size: 32px;
+    cursor: pointer;
+  } 
+  .controlPanel__button_active {
+    background: #b85600;
+  }

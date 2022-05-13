@@ -1,0 +1,55 @@
+.timer {
+    width: 720px;
+    height: 720px;
+    background: conic-gradient(#08002b, #220045 150deg, #08002b);
+    margin: 32px auto;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    box-shadow: -50px -50px 150px rgba(158, 158, 158, 0.2),
+     50px -10px 100px rgba(0, 0, 0, 0.5);
+  }
+
+  .timer__outerCircle {
+    width: 560px;
+    height: 560px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+
+  .timer__innterCircle {
+    width: 528px;
+    height: 528px;
+    background: #08002b;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+
+  .clock {
+    display: grid;
+    place-items: center;
+  }
+  
+  .clock__body {
+    font-size: 160px;
+  }
+
+  .clock__start button {
+    all: unset;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    cursor: pointer;
+  }
+
+  .clock__reset {
+    all: unset;
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    color: red;
+  }
